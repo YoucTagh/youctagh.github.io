@@ -1,0 +1,12 @@
+.nav-fixed{
+    position: fixed;
+    transition: 0.2s linear;
+    top: 0px;
+    z-index: 1000;
+}
+
+.nav-no-fixed{
+    position: static;
+    transition: 0.2s linear;
+    top: -50px;
+}

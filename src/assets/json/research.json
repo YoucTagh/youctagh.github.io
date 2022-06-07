@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "type": "article",
+    "theAbstract": "Resources on the Web are identified by uniform resource identifiers (URIs). Each resource can have several representations describing it that we call variants. A user (client) wanting a particular representation of that resource makes a request to its URI with a set of constraints. Content negotiation (CN) is the process by which a server matches the client's preferences to the set of variants the resource has. For a long time, the constraints that differentiated the variants were mainly media type and language. Later, variants were created to represent different evolutionary versions of the resource. However, today, with the use of semantic web technologies, especially RDF, a resource can be described using multiple vocabularies and ontologies and adhering to different web ontology language profiles. A finer negotiation of the content is therefore necessary, and the server response must be flexible, especially to answer a request if no representation perfectly validates all the constraints. In this work, we present the challenges associated with solving the fine-grained CN problem in a heterogeneous web environment. We present our research questions to address this problem and the proposed hypotheses. Finally, we describe our methodology, including an evaluation plan, and provide preliminary results obtained and the direction we intend to take from here.",
+    "language": "en",
+    "title": "Semantic content negotiation for knowledge exchange in heterogeneous systems",
+    "authors": ["Taghzouti Yousouf"],
+    "issuedDate": "2022",
+    "url": "/assets/paper/TheWebConf_2022_PS.pdf",
+    "status": "rejected"
+  },
+  {
+    "id": 2,
+    "type": "article",
+    "theAbstract": "L'ouverture et l'accessibilité du Web a largement contribué à son adoption à l'échelle mondiale. L'identifiant uniforme de ressource (URI) est la pierre angulaire de l'identification des ressources sur le Web. Une ressource sur le Web peut être décrite de nombreuses façons, ce qui peut rendre difficile pour un utilisateur de trouver une représentation adéquate. Cela a motivé une recherche fructueuse sur la négociation de contenu (NC) afin de satisfaire les besoins de l'utilisateur de manière efficace. Notre objectif de recherche est de présenter un état de l'art qui inclut (1)~une identification des caractéristiques des scénarios de la NC (styles, dimensions et moyens de transmission des contraintes), (2)~une comparaison et une classification de quelques contributions existantes, (3)~des cas d'utilisation pas encore couverts dans l'état de l'art, (4)~une suggestion de directions de recherche pour les travaux futurs. Les résultats de l'état de l'art montrent que le problème de la NC est pertinent et loin d'être résolu.",
+    "language": "fr",
+    "title": "Négociation de contenu sur le Web: un état de l’art",
+    "authors": ["Taghzouti Yousouf", "Zimmermann Antoine", "Lefrançois Maxime"],
+    "issuedDate": "2022",
+    "url": "/assets/paper/PFIA_2022_IC.pdf",
+    "status": "accepted",
+    "featured": "true"
+  },
+  {
+    "id": 3,
+    "type": "article",
+    "theAbstract": "Les ressources sur le Web sont identifiées par des identificateurs uniformes de ressources (URI). Chaque ressource peut avoir plusieurs représentations la décrivant, que nous appelons variantes. Un utilisateur (client) souhaitant une représentation particulière de cette ressource fait une requête à son URI avec un ensemble de contraintes. La négociation de contenu (NC) est le processus par lequel un serveur fait correspondre les préférences du client à l'ensemble des variantes de la ressource. Pendant longtemps, le type de média et la langue étaient les principales contraintes qui différenciaient les variantes. Plus tard, des variantes ont été créées pour représenter différentes versions évolutives dans le temps de la ressource avec le même type de média et la même langue. De plus, aujourd'hui, avec l'utilisation des technologies du web sémantique, notamment RDF, une ressource peut être décrite à l'aide de plusieurs vocabulaires et ontologies et en adhérant à différents profils de langage d'ontologie web. Une négociation plus fine de contenu est donc nécessaire, et la réponse du serveur doit être flexible, notamment pour répondre à une requête si aucune représentation ne valide parfaitement toutes les contraintes. Dans ce travail, nous présentons les défis associés à la résolution du problème de la négociation fine de contenu dans un environnement web hétérogène. Nous présentons nos questions de recherche pour résoudre ce problème et les hypothèses proposées. Enfin, nous décrivons notre méthodologie, y compris un plan d'évaluation, et fournissons les résultats préliminaires obtenus et la direction que nous envisageons de prendre.",
+    "language": "en",
+    "title": "Négociation de contenu sémantique pour l'échange de connaissances entre systèmes hétérogènes",
+    "authors": ["Taghzouti Yousouf", "Zimmermann Antoine", "Lefrançois Maxime"],
+    "issuedDate": "2022",
+    "url": "/assets/paper/PFIA_2022_RJCIA.pdf",
+    "status": "accepted",
+    "featured": "true"
+  },
+  {
+    "id": 4,
+    "type": "article",
+    "theAbstract": "A resource on the Web can have several representations that we call variants. A user wanting a particular representation of that resource dereferences its Uniform Resource Identifier (URI) with a set of constraints. Content negotiation (CN) is the process by which a server matches the client's constraints to the set of variants the resource has. Typically, media type and language were the predominant dimensions used to differentiate the variants. One can also find the use of the version dimension where variants were created to represent different evolutionary versions of the resource. On the semantic web, a resource can be described using multiple RDF ontologies and adhering to different web ontology language profiles. A finer negotiation of the content is therefore necessary, and the server response must be flexible, especially to answer a request if no representation perfectly validates all the constraints. In this PhD, we aim to address the problem of semantic content negotiation to enable fine-grained negotiation in a heterogeneous web environment. We present our problem statement, including our research questions to address a range of use cases. We also describe our methodology, and provide preliminary results as well as the future steps.",
+    "language": "en",
+    "title": "Semantic content negotiation for knowledge exchange in heterogeneous systems",
+    "authors": ["Taghzouti Yousouf"],
+    "issuedDate": "2022",
+    "url": "/assets/paper/ISWC_2022_DC.pdf",
+    "status": "under review"
+  },
+
+  {
+    "id": 5,
+    "type": "article",
+    "theAbstract": "Resources on the Web are identified by Uniform Resource Identifiers (URIs), and can be accessed using web protocols such as HTTP. A resource can have several representations varying along a set of dimensions, forming a set of variants. Content negotiation (CN) is the mechanism for selecting the appropriate variant that conforms to a set of preferences (constraints). Over the years, various dimensions of CN, styles of CN, as well as ways to convey constraints have emerged to satisfy new requirements and solve new use cases. This paper presents a new resource called Content Negotiation Theoretical Framework (CNTF): a website that collects knowledge about CN use cases, styles, dimensions, etc., and organise it according to an ontology. CNTF aims to highlight existing solutions if available, or suggest plausible ways to satisfy common requirements. It is intended to be used to disseminate our future proposals for advancing CN, making it a sustainable and up-to-date digital survey of CN.",
+    "language": "en",
+    "title": "A Portal for the State of the Art on Content Negotiation",
+    "authors": ["Taghzouti Yousouf", "Zimmermann Antoine", "Lefrançois Maxime"],
+    "issuedDate": "2022",
+    "url": "/assets/paper/ISWC_2022_RT.pdf",
+    "status": "under review",
+    "featured": "true"
+  }
+]

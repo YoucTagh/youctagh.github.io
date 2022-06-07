@@ -1,0 +1,13 @@
+[
+    {
+        "name": "This WebSite",
+        "stack": {
+            "name": "Angular",
+            "iconClasses": "fab fa-angular"
+        },
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "sourceUrl": "https://github.com/youctagh/youctagh.github.io",
+        "previewUrl": "https://youctagh.github.io",
+        "featured": true
+    }
+]

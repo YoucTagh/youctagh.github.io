@@ -1,0 +1,15 @@
+.vw-20 {
+    width: 20vw;
+}
+
+.res-card {
+    width: 350px;
+    /* height: 250px; */
+}
+
+.res-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 20ch;
+}

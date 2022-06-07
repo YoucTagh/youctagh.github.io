@@ -1,0 +1,12 @@
+{
+    "firstName": "Yousouf",
+    "lastName": "Taghzouti",
+    "intro": [
+        "I am a PhD student with a passion for teaching. I am preparing my thesis at Mines Saint-Étienne. My research area is Semantic Web, where I am mainly interested in semantic content negotiation for knowledge exchange in a heterogeneous settings.",
+        "I like programming in my spare time (software, website, mobile application, etc.).",
+        "You can take a look at some of my work here."
+    ],
+    "about": [
+        "This is a lorem text so as not to keep the page empty. In the meantime, if you are interested, I can mention that I have a bachelor's degree in computer science as well as a master's degree in artificial intelligence from the University of Abu Bakr Belkaid in Tlemcen, Algeria."
+    ]
+}
