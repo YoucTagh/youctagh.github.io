@@ -37,7 +37,13 @@
       </div>
       <div class="card-body ref-card text-start">
         <h6>
-          <i class="fa-lg me-1 mb-4 far fa-calendar"></i> {{ res.issuedDate }}
+          <span  *ngIf="res.conference">
+            <i class="fa-lg me-1 mb-4 fa fa-map-marker"></i>
+            {{ res.conference }}
+          </span>
+          <span class="ms-4">
+            <i class="fa-lg me-1 mb-4 far fa-calendar"></i> {{ res.issuedDate }}
+          </span>
         </h6>
         <h5 class="card-title mb-4">
           <i class="me-1 fa fa-book"></i> {{ res.title }}
@@ -82,7 +88,9 @@
 
 <ng-template #content let-modal>
   <div class="modal-header">
-    <h4 class="modal-title" id="modal-basic-title">{{ activeResearch.title }}</h4>
+    <h4 class="modal-title" id="modal-basic-title">
+      {{ activeResearch.title }}
+    </h4>
     <button
       type="button"
       class="btn-close"

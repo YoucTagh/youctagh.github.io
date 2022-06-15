@@ -10,4 +10,5 @@ export interface Research {
     type: string;
     status: string;
     featured?: boolean;
+    conference?: string;
 }

@@ -8,7 +8,8 @@
     "authors": ["Taghzouti Yousouf"],
     "issuedDate": "2022",
     "url": "/assets/paper/TheWebConf_2022_PS.pdf",
-    "status": "rejected"
+    "status": "rejected",
+    "conference":"WebConf"
   },
   {
     "id": 2,
@@ -20,7 +21,8 @@
     "issuedDate": "2022",
     "url": "/assets/paper/PFIA_2022_IC.pdf",
     "status": "accepted",
-    "featured": "true"
+    "featured": "true",
+    "conference":"IC at PFIA"
   },
   {
     "id": 3,
@@ -32,7 +34,8 @@
     "issuedDate": "2022",
     "url": "/assets/paper/PFIA_2022_RJCIA.pdf",
     "status": "accepted",
-    "featured": "true"
+    "featured": "true",
+    "conference":"RJCIA at PFIA"
   },
   {
     "id": 4,
@@ -43,7 +46,8 @@
     "authors": ["Taghzouti Yousouf"],
     "issuedDate": "2022",
     "url": "/assets/paper/ISWC_2022_DC.pdf",
-    "status": "under review"
+    "status": "rejected",
+    "conference":"ISWC"
   },
 
   {
@@ -56,6 +60,7 @@
     "issuedDate": "2022",
     "url": "/assets/paper/ISWC_2022_RT.pdf",
     "status": "under review",
-    "featured": "true"
+    "featured": "true",
+    "conference":"ISWC"
   }
 ]
