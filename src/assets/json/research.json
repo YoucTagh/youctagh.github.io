@@ -53,14 +53,39 @@
   {
     "id": 5,
     "type": "article",
-    "theAbstract": "Resources on the Web are identified by Uniform Resource Identifiers (URIs), and can be accessed using web protocols such as HTTP. A resource can have several representations varying along a set of dimensions, forming a set of variants. Content negotiation (CN) is the mechanism for selecting the appropriate variant that conforms to a set of preferences (constraints). Over the years, various dimensions of CN, styles of CN, as well as ways to convey constraints have emerged to satisfy new requirements and solve new use cases. This paper presents a new resource called Content Negotiation Theoretical Framework (CNTF): a website that collects knowledge about CN use cases, styles, dimensions, etc., and organise it according to an ontology. CNTF aims to highlight existing solutions if available, or suggest plausible ways to satisfy common requirements. It is intended to be used to disseminate our future proposals for advancing CN, making it a sustainable and up-to-date digital survey of CN.",
+    "theAbstract": "Resources on the Web are identified by Uniform Resource Identifiers (URIs), and can be accessed using web protocols such as HTTP. A resource can have several representations varying along a set of dimensions, forming a set of variants. Content negotiation (CN) is the mechanism for selecting the appropriate variant that conforms to a set of preferences (constraints). Over the years, various dimensions of CN, styles of CN, as well as ways to convey constraints have emerged to satisfy new requirements and solve new use cases. This demo presents a new resource called Content Negotiation Theoretical Framework (CNTF): a website that collects knowledge about CN use cases, styles, dimensions, etc., and organises it according to an ontology. CNTF aims to highlight existing solutions, if available, or suggest plausible ways to satisfy common requirements. It is intended to be used to disseminate our future proposals for advancing CN, making it a sustainable and up-to-date digital survey of CN.",
     "language": "en",
     "title": "A Portal for the State of the Art on Content Negotiation",
     "authors": ["Taghzouti Yousouf", "Zimmermann Antoine", "Lefrançois Maxime"],
     "issuedDate": "2022",
-    "url": "/assets/paper/ISWC_2022_RT.pdf",
-    "status": "rejected",
+    "url": "/assets/paper/ISWC_2022_D.pdf",
+    "status": "accepted",
     "featured": "true",
     "conference":"ISWC"
+  },
+  {
+    "id": 6,
+    "type": "article",
+    "theAbstract": "Content negotiation aims at enabling a server to provide a client with a representation of a resource that meets its needs. However, client and server might desire to negotiate constraints that go beyond the media type or language of the alternative representation. This is especially true in the Semantic Web, as a resource can be described with a single media type, but with different vocabularies (FOAF, schema.org, etc.), and may match specific patterns. In this paper, we propose an approach to increase the flexibility when negotiating a representation between client and server. Our approach follows the goals of the World Wide Web and uses a set of existing technologies: SHACL and profile-based negotiation. We define the mechanism (in terms of protocol and algorithm) for clients to announce their expectations and for servers to react and respond to them. We then explain, through a use case, how the same approach could be used in Web-based Multi-Agent Systems to help autonomous agents achieve their goals on the Web.",
+    "language": "en",
+    "title": "A Step Toward Semantic Content Negotiation",
+    "authors": ["Taghzouti Yousouf", "Vachtsevanou Danai", "Mayer Simon","Ciortea Andrei"],
+    "issuedDate": "2022",
+    "url": "/assets/paper/EKAW_2022_P.pdf",
+    "status": "accepted",
+    "featured": "true",
+    "conference":"EKAW"
+  },
+  {
+    "id": 7,
+    "type": "article",
+    "theAbstract": "The openness and accessibility of the Web has contributed greatly to its worldwide adoption. Uniform Resource Identifiers (URIs) are used for resource identification on the Web. A resource on the Web can be described in many ways, which makes it difficult for a user to find an adequate representation. This situation has motivated fruitful research on content negotiation to satisfy user requirements efficiently and effectively. We focus on the important topic of content negotiation, and our goal is to present the first comprehensive state of the art. Our contributions include (1) identifying the characteristics of content negotiation scenarios (styles, dimensions, and means of conveying constraints), (2) comparing and classifying existing contributions, (3) identifying use cases that the current state of content negotiation struggles to address, (4) suggesting research directions for future work. The results of the state of the art show that the problem of content negotiation is relevant and far from being solved.",
+    "language": "en",
+    "title": "Content negotiation on the Web: State of the art",
+    "authors": ["Taghzouti Yousouf", "Zimmermann Antoine", "Lefrançois Maxime"],
+    "issuedDate": "2022",
+    "url": "/assets/paper/Arxiv_2022_CN_SA.pdf",
+    "status": "accepted",
+    "conference":"EKAW"
   }
 ]
