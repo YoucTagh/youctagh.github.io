@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "",
+    "description": "",
+    "type": "POSTER",
+    "links": [
+      {
+        "name": "L’Institut Fayol à la Journée de l’IA » organisée par Digital League à Clermont-Ferrand",
+        "iri": "https://fayol.wp.imt.fr/2022/11/24/linstitut-fayol-a-la-journee-de-lia-organisee-par-digital-league-a-clermont-ferrand/?utm_source=mailpoet&utm_medium=email&utm_campaign=Lettre+N%C2%B015+-+Septembre+2022"
+      },
+      {
+        "name": "La journée de l’IA",
+        "iri": "https://www.digital-league.org/blog/events/la-journee-de-lia/"
+      }
+    ]
+  }
+]

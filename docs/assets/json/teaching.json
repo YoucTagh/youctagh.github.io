@@ -46,7 +46,6 @@
       "DB manipulation with Python"
     ],
     "language": "French",
-    "featured": "true",
     "ApproximateHours":14
   },
   {
@@ -70,7 +69,6 @@
     "endingDate": "2022-04",
     "mainConcepts": ["BFS", "DFS", "A*", "Constraints"],
     "language": "French",
-    "featured": "true",
     "ApproximateHours":10
   },
   {
@@ -84,5 +82,34 @@
     "language": "English",
     "featured": "true",
     "ApproximateHours":41
+  },
+  {
+    "id": 8,
+    "title": "Information System",
+    "location": "EMSE",
+    "note": "3rd year",
+    "startingDate": "2022-11",
+    "endingDate": "2022-12",
+    "mainConcepts": [
+      "ER",
+      "relational algebra",
+      "SQL",
+      "DB manipulation with Python"
+    ],
+    "language": "French",
+    "featured": "true",
+    "ApproximateHours":10.5
+  },
+  {
+    "id": 9,
+    "title": "Artificial intelligence",
+    "location": "EMSE",
+    "note": "4th year",
+    "startingDate": "2023-02",
+    "endingDate": "2023-03",
+    "mainConcepts": ["BFS", "DFS", "A*", "Constraints"],
+    "language": "English",
+    "featured": "true",
+    "ApproximateHours":10
   }
 ]
