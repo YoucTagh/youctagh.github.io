@@ -21,7 +21,6 @@
     "issuedDate": "2022",
     "url": "/assets/paper/PFIA_2022_IC.pdf",
     "status": "accepted",
-    "featured": "true",
     "conference":"IC at PFIA"
   },
   {
@@ -86,5 +85,18 @@
     "url": "/assets/paper/Arxiv_2022_CN_SA.pdf",
     "status": "accepted",
     "conference":"Arxiv"
+  },
+  {
+    "id": 8,
+    "type": "article",
+    "theAbstract": "The Web is a decentralised system where each Web server can serve a set of URIs that identify resources. Each resource can be associated with one or more representations. This promotes content negotiation, which is the mechanism by which a Web client can request a resource representation that satisfies a set of constraints. This is also true in the Semantic Web, since when resources are described, different vocabularies are used (e.g. Schema.org and FOAF), and when they are served in the Web, they are serialised in different formats (e.g. text/turtle and application/rdf+xml). In this context, HTTP provides the means to negotiate representations using media types, and semantic validation languages (e.g. SHACL) could be used to define the constraints that knowledge graphs must conform to. If a resource was only identified by a single URI (as it would be the case with unique names assumption), it would mean that all representations would be present on one and only one server. This implies that one would be able to negotiate all representations of a resource with that server. However, this is not possible in the actual Web, because Web standards do not assume unique names and representations are scattered and distributed in different places. Still, a URI can only be served by one server, so in general, several servers should be consulted to get all representations of a resource. Consequently, when we negotiate with a Web server, we only consider a subset of all existing representations. In this article, we propose an approach to perform content negotiation even when representations are dispersed and present in multiple locations. We focus on this specific data management solution by leveraging equivalence links, which consists of querying the Web of Data with Content Negotiation, involving on-the-fly SHACL shape validation. To this end, we provide two algorithms, the first in a basic context (i.e. considering only media type constraints) and the second in a semantic context (i.e. also considering SHACL shapes). An implementation of the algorithms as well as separate experiments were conducted to measure the benefits and assess the time requirements of such methods. The conclusion is that utilising equivalence links (such as owl:sameAs) present in knowledge graphs enables more effective content negotiation of Web resources by allowing the discovery, validation and serving of representations stored in a distributed manner.",
+    "language": "en",
+    "title": "Content Negotiation in a Decentralised Semantic Context Utilising Equivalence Links",
+    "authors": ["Taghzouti Yousouf", "Zimmermann Antoine", "Lefrançois Maxime"],
+    "issuedDate": "2023",
+    "url": "/assets/paper/ESWC_2023_EKAW.pdf",
+    "status": "accepted",
+    "featured": "true",
+    "conference":"DMKG - ESWC"
   }
 ]
