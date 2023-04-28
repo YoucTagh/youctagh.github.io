@@ -98,5 +98,17 @@
     "status": "accepted",
     "featured": "true",
     "conference":"DMKG - ESWC"
+  },
+   {
+    "id": 9,
+    "type": "Extended Abstract",
+    "theAbstract": "The Web is a decentralised system where servers can serve a set of URIs that identify resources. A resource may have one or more representations. This encourages Content Negotiation (CN), the mechanism by which a client can request a resource representation that satisfies some constraints. In the Semantic Web, resources are described using different vocabularies. HTTP provides the means to negotiate representations that have a required media type. Similarly, semantic validation languages (e.g. SHACL) could be used to define the constraints that knowledge graphs must satisfy. If a resource were identified by a single URI (unique names assumption), this would imply that all representations would be on one server. However, this is not possible on the current Web, because Web standards do not assume unique names and representations are distributed in different places. We propose an approach to perform content negotiation even when representations are distributed and present in multiple locations by using equivalence links, which involves on-the-fly SHACL shape validation.",
+    "language": "en",
+    "title": "Enable Decentralised Semantic Content Negotiation through Equivalence Links",
+    "authors": ["Taghzouti Yousouf"],
+    "issuedDate": "2023",
+    "url": "/assets/paper/SeReCo_2023.pdf",
+    "status": "submitted",
+    "conference":"SeReCo"
   }
 ]
