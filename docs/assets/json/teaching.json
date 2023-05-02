@@ -111,5 +111,16 @@
     "language": "English",
     "featured": "true",
     "ApproximateHours":10
+  },
+  {
+    "id": 10,
+    "title": "Object Oriented Programming",
+    "location": "EMSE",
+    "note": "3rd year",
+    "startingDate": "2023-05",
+    "endingDate": "2023-05",
+    "mainConcepts": ["Class", "Heritage", "Overload"],
+    "language": "French",
+    "ApproximateHours":1.5
   }
 ]
