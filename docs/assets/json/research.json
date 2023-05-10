@@ -110,5 +110,17 @@
     "url": "/assets/paper/SeReCo_2023.pdf",
     "status": "under review",
     "conference":"SeReCo"
+  },
+  {
+    "id": 10,
+    "type": "article",
+    "theAbstract": "Identification, interaction and data formats are the pillars of the Web architecture. Content negotiation plays a major role in the interaction part by providing the means by which a server responds to a client request for a resource with the appropriate representation that satisfies a set of constraints. Content negotiation by media type and language is established on the Web. The under development profile dimension for content negotiation describes structural and/or semantic constraints on resource representations. In the Semantic Web, a client may be interested in negotiating RDF graphs that conform to a profile (e.g. represented as a SHACL shape graph). In the request-response model of HTTP, different architectural styles are possible to perform content negotiation, each with its advantages and disadvantages. In this paper, we review existing contributions related to content negotiation by profile, with a particular focus on the ongoing efforts led by the Dataset Exchange Working Group and the Internet Engineering Task Force. We then propose an overview of the possible architectural styles for content negotiation by profile, and discuss trade-offs for using one over the other. Using an incremental use case and scenarios, we show how some architectural styles would address several requirements that have not yet been addressed. An implementation and experiments are proposed to demonstrate the applicability of some of the architectural styles.",
+    "language": "en",
+    "title": "Architectural Styles of Content Negotiation in The Profile Dimension",
+    "authors": ["Taghzouti Yousouf", "Zimmermann Antoine", "Lefrançois Maxime"],
+    "issuedDate": "2023",
+    "url": "/assets/paper/ISWC_R_2023.pdf",
+    "status": "under review",
+    "conference":"ISWC"
   }
 ]
