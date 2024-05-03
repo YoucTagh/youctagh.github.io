@@ -25,3 +25,12 @@ body {
 .min-vh-10 {
     min-height: 10vh;
 }
+
+a{
+    text-decoration-line: none;
+}
+
+a:hover{
+    color: blue;
+    text-decoration-line: underline ;
+}

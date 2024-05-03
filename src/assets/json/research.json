@@ -108,7 +108,7 @@
     "authors": ["Taghzouti Yousouf"],
     "issuedDate": "2023",
     "url": "/assets/paper/SeReCo_2023.pdf",
-    "status": "under review",
+    "status": "accepted",
     "conference":"SeReCo"
   },
   {
@@ -120,7 +120,7 @@
     "authors": ["Taghzouti Yousouf", "Zimmermann Antoine", "Lefrançois Maxime"],
     "issuedDate": "2023",
     "url": "/assets/paper/ISWC_R_2023.pdf",
-    "status": "under review",
+    "status": "rejected",
     "conference":"ISWC"
   }
 ]

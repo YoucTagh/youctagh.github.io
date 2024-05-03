@@ -57,7 +57,6 @@
     "endingDate": "2022-04",
     "mainConcepts": ["Class", "Heritage", "Overload"],
     "language": "French",
-    "featured": "true",
     "ApproximateHours":17
   },
   {
@@ -97,7 +96,6 @@
       "DB manipulation with Python"
     ],
     "language": "French",
-    "featured": "true",
     "ApproximateHours":10.5
   },
   {
@@ -109,7 +107,6 @@
     "endingDate": "2023-03",
     "mainConcepts": ["BFS", "DFS", "A*", "Constraints"],
     "language": "English",
-    "featured": "true",
     "ApproximateHours":10
   },
   {
@@ -122,5 +119,73 @@
     "mainConcepts": ["Class", "Heritage", "Overload"],
     "language": "French",
     "ApproximateHours":1.5
+  },
+  {
+    "id": 11,
+    "title": "Information System",
+    "location": "EMSE",
+    "note": "3rd year",
+    "startingDate": "2023-11",
+    "endingDate": "2023-12",
+    "mainConcepts": [
+      "ER",
+      "relational algebra",
+      "SQL",
+      "DB manipulation with Python"
+    ],
+    "language": "French",
+    "featured": "true",
+    "ApproximateHours":12
+  },
+  {
+    "id": 12,
+    "title": "Artificial intelligence",
+    "location": "EMSE",
+    "note": "Mastère Spécialisé",
+    "startingDate": "2024-01",
+    "endingDate": "2024-02",
+    "mainConcepts": ["BFS", "DFS", "A*", "Constraints"],
+    "language": "English",
+    "featured": "true",
+    "ApproximateHours": 20
+  },
+  
+  {
+    "id": 13,
+    "title": "Artificial intelligence",
+    "location": "EMSE",
+    "note": "4th year",
+    "startingDate": "2024-03",
+    "endingDate": "2024-03",
+    "mainConcepts": ["BFS", "DFS"],
+    "language": "English",
+    "ApproximateHours": 3
+  },
+
+  {
+    "id": 14,
+    "title": "Object Oriented Programming",
+    "location": "EMSE",
+    "note": "3rd year",
+    "startingDate": "2024-05",
+    "endingDate": "2024-06",
+    "mainConcepts": ["Class", "Heritage", "Overload"],
+    "language": "French",
+    "featured": "true",
+    "ApproximateHours":18
+  },
+  
+  {
+    "id": 15,
+    "title": "Data Interoperability and Semantics",
+    "location": "EMSE",
+    "note": "Industrial staff (Fives Group)",
+    "startingDate": "2024-05",
+    "endingDate": "2024-05",
+    "mainConcepts": ["Data Formats", "Data Schemas", "Ontologies and Vocabularies"],
+    "language": "English",
+    "featured": "true",
+    "ApproximateHours":16.5
   }
+  
 ]

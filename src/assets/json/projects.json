@@ -1,13 +1,45 @@
 [
     {
-        "name": "This WebSite",
+        "name": "#This website",
         "stack": {
             "name": "Angular",
             "iconClasses": "fab fa-angular"
         },
-        "description": "My personal website.",
+        "description": "My personal website, where you would find information about my activities e.g. research, teaching ect.",
         "sourceUrl": "https://github.com/youctagh/youctagh.github.io",
-        "previewUrl": "https://youctagh.github.io",
+        "previewUrl": "https://youctagh.github.io"
+    },
+    {
+        "name": "CNTF",
+        "stack": {
+            "name": "Angular",
+            "iconClasses": "fab fa-angular"
+        },
+        "description": "A website that aims to provide everything (almost :)) you need to know about the content negotiation problem.",
+        "sourceUrl": "https://github.com/YoucTagh/CNTF",
+        "previewUrl": "https://w3id.org/cntf/",
+        "featured": true
+    },
+    {
+        "name": "Purchase Manager",
+        "stack": {
+            "name": "Spring + JavaFx",
+            "iconClasses": "fab fa-java"
+        },
+        "description": "A project (frontend + backend application) to manage tickets of bought products from different stores.",
+        "sourceUrl": "https://github.com/YoucTagh/PurchaseManager",
+        
+        "featured": true
+    },
+    {
+        "name": "Network TFTP",
+        "stack": {
+            "name": "Python",
+            "iconClasses": "fab fa-python"
+        },
+        "description": "A basic TFTP (Trivial File Transfer Protocol) system that includes a client and a server.",
+        "sourceUrl": "https://github.com/YoucTagh/Network_TFTP",
+        
         "featured": true
     }
 ]

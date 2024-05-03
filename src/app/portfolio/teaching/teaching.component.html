@@ -1,31 +1,20 @@
-<div
-  *ngFor="let options of respOptions"
-  [ngClass]="options.viewClasses"
-  class="flex-column align-items-center text-center vw-90 mx-auto"
->
+<div *ngFor="let options of respOptions" [ngClass]="options.viewClasses"
+  class="flex-column align-items-center text-center vw-90 mx-auto">
   <h1 [ngClass]="options.titleClasses" class="mb-5">
-    <span class="fw-bold">My</span> teaching
+    <span class="fw-bold">My</span> Teaching
   </h1>
-  <div
-    class="d-flex vw-90"
-    [ngClass]="{
+  <div class="d-flex vw-90" [ngClass]="{
       'justify-content-center flex-wrap': !options.displayInColumn,
       'flex-column  align-items-center': options.displayInColumn
-    }"
-    *ngIf="teaching$ | async as teaching"
-  >
-    <div
-      *ngFor="let t of teaching"
-      class="card t-card"
-      [ngClass]="{
+    }" *ngIf="teaching$ | async as teaching">
+    <div *ngFor="let t of teaching" class="card t-card" [ngClass]="{
         'm-3': !options.displayInColumn,
         'mb-3': options.displayInColumn
-      }"
-    >
+      }">
       <div class="card-body ref-card text-start">
         <h6>
           <i class="fa-lg me-1 mb-4 far fa-calendar"></i> From
-          {{ t.startingDate }} To {{ t.endingDate }}
+          {{ t.startingDate }} to {{ t.endingDate }}
         </h6>
         <h5 class="card-title mb-4">
           <i class="me-1 fa fa-book"></i> {{ t.title }}
@@ -36,11 +25,7 @@
       </div>
       <div class="card-footer">
         <div class="d-flex flex-row justify-content-center">
-          <a
-            *ngIf="t.mainConcepts"
-            class="btn btn-dark me-2"
-            (click)="open(content, t)"
-          >
+          <a *ngIf="t.mainConcepts" class="btn btn-dark me-2" (click)="open(content, t)">
             <i class="fa-lg me-1 far fa-eye"></i>
             More Info
           </a>
@@ -49,11 +34,7 @@
     </div>
   </div>
 
-  <button
-    *ngIf="isHome$ | async"
-    routerLink="/teaching"
-    class="mt-3 btn btn-dark"
-  >
+  <button *ngIf="isHome$ | async" routerLink="/teaching" class="mt-3 btn btn-dark">
     See More Teaching
     <i class="ms-1 fas fa-angle-right"></i>
   </button>
@@ -64,12 +45,7 @@
     <h4 class="modal-title" id="modal-basic-title">
       {{ activeTeaching.title }}
     </h4>
-    <button
-      type="button"
-      class="btn-close"
-      aria-label="Close"
-      (click)="modal.dismiss('Cross click')"
-    ></button>
+    <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
   </div>
   <div class="modal-body">
     <p> Main Concepts:</p>
@@ -78,11 +54,7 @@
     </ul>
   </div>
   <div class="modal-footer">
-    <button
-      type="button"
-      class="btn btn-outline-dark"
-      (click)="modal.close('Close click')"
-    >
+    <button type="button" class="btn btn-outline-dark" (click)="modal.close('Close click')">
       Close
     </button>
   </div>
