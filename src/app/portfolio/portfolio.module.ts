@@ -7,6 +7,7 @@ import { AboutComponent } from './about/about.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ResearchComponent } from './research/research.component';
 import { TeachingComponent } from './teaching/teaching.component';
+import { AcademicProjectsComponent } from './academic-projects/academic-projects.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { TeachingComponent } from './teaching/teaching.component';
     AboutComponent,
     ProjectsComponent,
     ResearchComponent,
-    TeachingComponent
+    TeachingComponent,
+    AcademicProjectsComponent
   ],
   imports: [
     CommonModule,

@@ -18,7 +18,8 @@ export class HeaderComponent {
     { title: 'About Me', homePath: '/', fragment: 'about', pagePath: '/about' },
     { title: 'My Research', homePath: '/', fragment: 'research', pagePath: '/research' },
     { title: 'My Teaching', homePath: '/', fragment: 'teaching', pagePath: '/teaching' },
-    { title: 'My Projects', homePath: '/', fragment: 'projects', pagePath: '/projects' },
+    { title: 'Academic Projects', homePath: '/', fragment: 'academic-projects', pagePath: '/academic-projects' },
+    { title: 'Programming Projects', homePath: '/', fragment: 'projects', pagePath: '/projects' },
   ];
 
   constructor(private bioService: BioService, private headerService: HeaderService) { }
