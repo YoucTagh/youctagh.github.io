@@ -28,7 +28,6 @@
         },
         "description": "A project (frontend + backend application) to manage tickets of bought products from different stores.",
         "sourceUrl": "https://github.com/YoucTagh/PurchaseManager",
-        
         "featured": true
     },
     {
@@ -39,7 +38,15 @@
         },
         "description": "A basic TFTP (Trivial File Transfer Protocol) system that includes a client and a server.",
         "sourceUrl": "https://github.com/YoucTagh/Network_TFTP",
-        
         "featured": true
+    },
+    {
+        "name": "Knowledge Representation YOnto",
+        "stack": {
+            "name": "JavaFx",
+            "iconClasses": "fab fa-java"
+        },
+        "description": "an authoring system for ontologies including the following features: (1) Creating an ontology in with the help of the GUI (2) Reading an ontology and updating it (3) Importing and exporting the ontologies (4) Making SPARQL queries",
+        "sourceUrl": "https://github.com/YoucTagh/Knowledge_Representation_YOnto"
     }
 ]
