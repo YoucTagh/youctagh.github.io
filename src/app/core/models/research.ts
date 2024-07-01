@@ -11,4 +11,5 @@ export interface Research {
     status: string;
     featured?: boolean;
     conference?: string;
+    videoURI?:string;
 }

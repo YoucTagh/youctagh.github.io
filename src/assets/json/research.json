@@ -59,7 +59,8 @@
     "url": "/assets/paper/ISWC_2022_D.pdf",
     "status": "accepted",
     "featured": "true",
-    "conference":"ISWC"
+    "conference":"ISWC",
+    "videoURI": "https://youtu.be/Iu5ZjZZ3gEo"
   },
   {
     "id": 6,
@@ -97,6 +98,7 @@
     "url": "/assets/paper/ESWC_2023_DMKG.pdf",
     "status": "accepted",
     "featured": "true",
+    "videoURI": "https://videolectures.net/eswc2023_taghzouti_content_negotiation/",
     "conference":"DMKG - ESWC"
   },
    {

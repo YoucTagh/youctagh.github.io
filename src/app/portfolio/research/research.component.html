@@ -42,11 +42,15 @@
         <div class="d-flex flex-row justify-content-center">
           <a *ngIf="res.theAbstract" class="btn btn-dark me-2" (click)="open(content, res)">
             <i class="fa-lg me-1 far fa-eye"></i>
-            Show/Hide Abstract
+            Abstract
           </a>
           <a [href]="res.url" target="_blank" *ngIf="res.url" class="btn btn-dark me-2">
             <i class="fa-lg me-1 fa fa-link"></i>
-            URL
+            <!-- URL -->
+          </a>
+          <a [href]="res.videoURI" target="_blank" *ngIf="res.videoURI" class="btn btn-dark me-2">
+            <i class="fa-lg me-1 fa fa-video"></i>
+            <!-- Video -->
           </a>
         </div>
       </div>
