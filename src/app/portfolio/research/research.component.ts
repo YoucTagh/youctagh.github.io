@@ -5,6 +5,8 @@ import { HeaderService } from 'src/app/core/services/header.service';
 import { ResearchService } from 'src/app/core/services/research.service';
 
 @Component({
+  standalone: false,
+
   selector: 'app-research',
   templateUrl: './research.component.html',
   styleUrls: ['./research.component.css']

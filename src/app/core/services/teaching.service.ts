@@ -11,7 +11,7 @@ export class TeachingService {
   constructor(private http: HttpClient) { }
 
   getTeaching(featured?: boolean): Observable<Teaching[]> {
-    let teaching$ = this.http.get<Teaching[]>('assets/json/teaching.json')
+    let teaching$ = this.http.get<Teaching[]>('json/teaching.json')
 
     if (featured) {
       return teaching$.pipe(

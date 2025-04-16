@@ -11,7 +11,7 @@ export class ResearchService {
   constructor(private http: HttpClient) { }
 
   getResearch(featured?: boolean): Observable<Research[]> {
-    let research$ = this.http.get<Research[]>('assets/json/research.json');
+    let research$ = this.http.get<Research[]>('json/research.json');
 
     if (featured) {
       return research$.pipe(

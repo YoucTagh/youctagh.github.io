@@ -13,7 +13,9 @@ const routes: Routes = [
   { path: 'research', component: ResearchComponent },
   { path: 'projects', component: ProjectsComponent },
   { path: 'academic-projects', component: AcademicProjectsComponent },
-  { path: 'teaching', component: TeachingComponent }
+  { path: 'teaching', component: TeachingComponent },
+  { path: 'books/**', redirectTo: 'books/basaa-ir/index.html' }, // Redirect to the correct path
+  // { path: '**', redirectTo: '' } // Redirect to home for any unknown routes
 ];
 
 @NgModule({

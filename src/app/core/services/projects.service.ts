@@ -12,7 +12,7 @@ export class ProjectsService {
   constructor(private http: HttpClient) { }
 
   getProjects(featured?: boolean): Observable<Project[]> {
-    let projects$ = this.http.get<Project[]>('assets/json/projects.json');
+    let projects$ = this.http.get<Project[]>('json/projects.json');
 
     if (featured) {
       return projects$.pipe(

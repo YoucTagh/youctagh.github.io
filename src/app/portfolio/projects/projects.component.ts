@@ -4,6 +4,8 @@ import { HeaderService } from '../../core/services/header.service';
 import { ProjectsService } from '../../core/services/projects.service';
 
 @Component({
+  standalone: false,
+
   selector: 'app-projects',
   templateUrl: './projects.component.html',
   styleUrls: ['./projects.component.css']

@@ -4,6 +4,8 @@ import { HeaderService } from '../../core/services/header.service';
 import { AcademicProjectsService } from 'src/app/core/services/academic-projects.service';
 
 @Component({
+  standalone: false,
+
   selector: 'app-academic-projects',
   templateUrl: './academic-projects.component.html',
   styleUrls: ['./academic-projects.component.css']

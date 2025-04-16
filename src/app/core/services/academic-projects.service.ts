@@ -13,7 +13,7 @@ export class AcademicProjectsService {
   constructor(private http: HttpClient) { }
 
   getProjects(featured?: boolean): Observable<AcademicProject[]> {
-    let projects$ = this.http.get<AcademicProject[]>('assets/json/academic-projects.json');
+    let projects$ = this.http.get<AcademicProject[]>('json/academic-projects.json');
 
     if (featured) {
       return projects$.pipe(

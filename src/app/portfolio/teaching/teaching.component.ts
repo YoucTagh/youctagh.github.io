@@ -5,6 +5,8 @@ import { HeaderService } from 'src/app/core/services/header.service';
 import { TeachingService } from 'src/app/core/services/teaching.service';
 
 @Component({
+  standalone: false,
+
   selector: 'app-teaching',
   templateUrl: './teaching.component.html',
   styleUrls: ['./teaching.component.css']
