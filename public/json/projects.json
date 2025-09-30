@@ -1,6 +1,6 @@
 [
     {
-        "name": "#This website",
+        "name": "This website",
         "stack": {
             "name": "Angular",
             "iconClasses": "fab fa-angular"
@@ -37,8 +37,7 @@
             "iconClasses": "fab fa-python"
         },
         "description": "A basic TFTP (Trivial File Transfer Protocol) system that includes a client and a server.",
-        "sourceUrl": "https://github.com/YoucTagh/Network_TFTP",
-        "featured": true
+        "sourceUrl": "https://github.com/YoucTagh/Network_TFTP"
     },
     {
         "name": "Knowledge Representation YOnto",
@@ -48,5 +47,26 @@
         },
         "description": "an authoring system for ontologies including the following features: (1) Creating an ontology in with the help of the GUI (2) Reading an ontology and updating it (3) Importing and exporting the ontologies (4) Making SPARQL queries",
         "sourceUrl": "https://github.com/YoucTagh/Knowledge_Representation_YOnto"
+    },
+    {
+        "name": "Gen²KGBot",
+        "stack": {
+            "name": "Python",
+            "iconClasses": "fab fa-python"
+        },
+        "description": "Gen²KGBot intends to allow users to \"speak to a knowledge graph\", that is, use natural language to query knowledge graphs in a generic manner, with the help of generative large language models (LLM).",
+        "sourceUrl": "https://github.com/Wimmics/gen2kgbot",
+        "featured": true
+    },
+    {
+        "name": "Q²Forge",
+        "stack": {
+            "name": "Angular",
+            "iconClasses": "fab fa-angular"
+        },
+        "description": "This project provides an end-to-end pipeline to generate a dataset of (question, SPARQL query) pairs for a given Knowledge Graph (KG).",
+        "sourceUrl": "https://github.com/Wimmics/q2forge",
+        "previewUrl": "https://w3id.org/q2forge/",
+        "featured": true
     }
 ]

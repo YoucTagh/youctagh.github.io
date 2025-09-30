@@ -5,11 +5,13 @@
     "theAbstract": "Resources on the Web are identified by uniform resource identifiers (URIs). Each resource can have several representations describing it that we call variants. A user (client) wanting a particular representation of that resource makes a request to its URI with a set of constraints. Content negotiation (CN) is the process by which a server matches the client's preferences to the set of variants the resource has. For a long time, the constraints that differentiated the variants were mainly media type and language. Later, variants were created to represent different evolutionary versions of the resource. However, today, with the use of semantic web technologies, especially RDF, a resource can be described using multiple vocabularies and ontologies and adhering to different web ontology language profiles. A finer negotiation of the content is therefore necessary, and the server response must be flexible, especially to answer a request if no representation perfectly validates all the constraints. In this work, we present the challenges associated with solving the fine-grained CN problem in a heterogeneous web environment. We present our research questions to address this problem and the proposed hypotheses. Finally, we describe our methodology, including an evaluation plan, and provide preliminary results obtained and the direction we intend to take from here.",
     "language": "en",
     "title": "Semantic content negotiation for knowledge exchange in heterogeneous systems",
-    "authors": ["Taghzouti Yousouf"],
+    "authors": [
+      "Taghzouti Yousouf"
+    ],
     "issuedDate": "2022",
     "url": "/paper/TheWebConf_2022_PS.pdf",
     "status": "rejected",
-    "conference":"WebConf"
+    "conference": "WebConf"
   },
   {
     "id": 2,
@@ -17,11 +19,15 @@
     "theAbstract": "L'ouverture et l'accessibilité du Web a largement contribué à son adoption à l'échelle mondiale. L'identifiant uniforme de ressource (URI) est la pierre angulaire de l'identification des ressources sur le Web. Une ressource sur le Web peut être décrite de nombreuses façons, ce qui peut rendre difficile pour un utilisateur de trouver une représentation adéquate. Cela a motivé une recherche fructueuse sur la négociation de contenu (NC) afin de satisfaire les besoins de l'utilisateur de manière efficace. Notre objectif de recherche est de présenter un état de l'art qui inclut (1)~une identification des caractéristiques des scénarios de la NC (styles, dimensions et moyens de transmission des contraintes), (2)~une comparaison et une classification de quelques contributions existantes, (3)~des cas d'utilisation pas encore couverts dans l'état de l'art, (4)~une suggestion de directions de recherche pour les travaux futurs. Les résultats de l'état de l'art montrent que le problème de la NC est pertinent et loin d'être résolu.",
     "language": "fr",
     "title": "Négociation de contenu sur le Web: un état de l’art",
-    "authors": ["Taghzouti Yousouf", "Zimmermann Antoine", "Lefrançois Maxime"],
+    "authors": [
+      "Taghzouti Yousouf",
+      "Zimmermann Antoine",
+      "Lefrançois Maxime"
+    ],
     "issuedDate": "2022",
     "url": "/paper/PFIA_2022_IC.pdf",
     "status": "accepted",
-    "conference":"IC at PFIA"
+    "conference": "IC at PFIA"
   },
   {
     "id": 3,
@@ -29,11 +35,15 @@
     "theAbstract": "Les ressources sur le Web sont identifiées par des identificateurs uniformes de ressources (URI). Chaque ressource peut avoir plusieurs représentations la décrivant, que nous appelons variantes. Un utilisateur (client) souhaitant une représentation particulière de cette ressource fait une requête à son URI avec un ensemble de contraintes. La négociation de contenu (NC) est le processus par lequel un serveur fait correspondre les préférences du client à l'ensemble des variantes de la ressource. Pendant longtemps, le type de média et la langue étaient les principales contraintes qui différenciaient les variantes. Plus tard, des variantes ont été créées pour représenter différentes versions évolutives dans le temps de la ressource avec le même type de média et la même langue. De plus, aujourd'hui, avec l'utilisation des technologies du web sémantique, notamment RDF, une ressource peut être décrite à l'aide de plusieurs vocabulaires et ontologies et en adhérant à différents profils de langage d'ontologie web. Une négociation plus fine de contenu est donc nécessaire, et la réponse du serveur doit être flexible, notamment pour répondre à une requête si aucune représentation ne valide parfaitement toutes les contraintes. Dans ce travail, nous présentons les défis associés à la résolution du problème de la négociation fine de contenu dans un environnement web hétérogène. Nous présentons nos questions de recherche pour résoudre ce problème et les hypothèses proposées. Enfin, nous décrivons notre méthodologie, y compris un plan d'évaluation, et fournissons les résultats préliminaires obtenus et la direction que nous envisageons de prendre.",
     "language": "en",
     "title": "Négociation de contenu sémantique pour l'échange de connaissances entre systèmes hétérogènes",
-    "authors": ["Taghzouti Yousouf", "Zimmermann Antoine", "Lefrançois Maxime"],
+    "authors": [
+      "Taghzouti Yousouf",
+      "Zimmermann Antoine",
+      "Lefrançois Maxime"
+    ],
     "issuedDate": "2022",
     "url": "/paper/PFIA_2022_RJCIA.pdf",
     "status": "accepted",
-    "conference":"RJCIA at PFIA"
+    "conference": "RJCIA at PFIA"
   },
   {
     "id": 4,
@@ -41,25 +51,30 @@
     "theAbstract": "A resource on the Web can have several representations that we call variants. A user wanting a particular representation of that resource dereferences its Uniform Resource Identifier (URI) with a set of constraints. Content negotiation (CN) is the process by which a server matches the client's constraints to the set of variants the resource has. Typically, media type and language were the predominant dimensions used to differentiate the variants. One can also find the use of the version dimension where variants were created to represent different evolutionary versions of the resource. On the semantic web, a resource can be described using multiple RDF ontologies and adhering to different web ontology language profiles. A finer negotiation of the content is therefore necessary, and the server response must be flexible, especially to answer a request if no representation perfectly validates all the constraints. In this PhD, we aim to address the problem of semantic content negotiation to enable fine-grained negotiation in a heterogeneous web environment. We present our problem statement, including our research questions to address a range of use cases. We also describe our methodology, and provide preliminary results as well as the future steps.",
     "language": "en",
     "title": "Semantic content negotiation for knowledge exchange in heterogeneous systems",
-    "authors": ["Taghzouti Yousouf"],
+    "authors": [
+      "Taghzouti Yousouf"
+    ],
     "issuedDate": "2022",
     "url": "/paper/ISWC_2022_DC.pdf",
     "status": "rejected",
-    "conference":"ISWC"
+    "conference": "ISWC"
   },
-
   {
     "id": 5,
     "type": "article",
     "theAbstract": "Resources on the Web are identified by Uniform Resource Identifiers (URIs), and can be accessed using web protocols such as HTTP. A resource can have several representations varying along a set of dimensions, forming a set of variants. Content negotiation (CN) is the mechanism for selecting the appropriate variant that conforms to a set of preferences (constraints). Over the years, various dimensions of CN, styles of CN, as well as ways to convey constraints have emerged to satisfy new requirements and solve new use cases. This demo presents a new resource called Content Negotiation Theoretical Framework (CNTF): a website that collects knowledge about CN use cases, styles, dimensions, etc., and organises it according to an ontology. CNTF aims to highlight existing solutions, if available, or suggest plausible ways to satisfy common requirements. It is intended to be used to disseminate our future proposals for advancing CN, making it a sustainable and up-to-date digital survey of CN.",
     "language": "en",
     "title": "A Portal for the State of the Art on Content Negotiation",
-    "authors": ["Taghzouti Yousouf", "Zimmermann Antoine", "Lefrançois Maxime"],
+    "authors": [
+      "Taghzouti Yousouf",
+      "Zimmermann Antoine",
+      "Lefrançois Maxime"
+    ],
     "issuedDate": "2022",
     "url": "/paper/ISWC_2022_D.pdf",
     "status": "accepted",
     "featured": "true",
-    "conference":"ISWC",
+    "conference": "ISWC",
     "videoURI": "https://youtu.be/Iu5ZjZZ3gEo"
   },
   {
@@ -68,12 +83,16 @@
     "theAbstract": "Content negotiation aims at enabling a server to provide a client with a representation of a resource that meets its needs. However, client and server might desire to negotiate constraints that go beyond the media type or language of the alternative representation. This is especially true in the Semantic Web, as a resource can be described with a single media type, but with different vocabularies (FOAF, schema.org, etc.), and may match specific patterns. In this paper, we propose an approach to increase the flexibility when negotiating a representation between client and server. Our approach follows the goals of the World Wide Web and uses a set of existing technologies: SHACL and profile-based negotiation. We define the mechanism (in terms of protocol and algorithm) for clients to announce their expectations and for servers to react and respond to them. We then explain, through a use case, how the same approach could be used in Web-based Multi-Agent Systems to help autonomous agents achieve their goals on the Web.",
     "language": "en",
     "title": "A Step Toward Semantic Content Negotiation",
-    "authors": ["Taghzouti Yousouf", "Vachtsevanou Danai", "Mayer Simon","Ciortea Andrei"],
+    "authors": [
+      "Taghzouti Yousouf",
+      "Vachtsevanou Danai",
+      "Mayer Simon",
+      "Ciortea Andrei"
+    ],
     "issuedDate": "2022",
     "url": "/paper/EKAW_2022_P.pdf",
     "status": "accepted",
-    "featured": "true",
-    "conference":"EKAW"
+    "conference": "EKAW"
   },
   {
     "id": 7,
@@ -81,11 +100,15 @@
     "theAbstract": "The openness and accessibility of the Web has contributed greatly to its worldwide adoption. Uniform Resource Identifiers (URIs) are used for resource identification on the Web. A resource on the Web can be described in many ways, which makes it difficult for a user to find an adequate representation. This situation has motivated fruitful research on content negotiation to satisfy user requirements efficiently and effectively. We focus on the important topic of content negotiation, and our goal is to present the first comprehensive state of the art. Our contributions include (1) identifying the characteristics of content negotiation scenarios (styles, dimensions, and means of conveying constraints), (2) comparing and classifying existing contributions, (3) identifying use cases that the current state of content negotiation struggles to address, (4) suggesting research directions for future work. The results of the state of the art show that the problem of content negotiation is relevant and far from being solved.",
     "language": "en",
     "title": "Content negotiation on the Web: State of the art",
-    "authors": ["Taghzouti Yousouf", "Zimmermann Antoine", "Lefrançois Maxime"],
+    "authors": [
+      "Taghzouti Yousouf",
+      "Zimmermann Antoine",
+      "Lefrançois Maxime"
+    ],
     "issuedDate": "2022",
     "url": "/paper/Arxiv_2022_CN_SA.pdf",
     "status": "accepted",
-    "conference":"Arxiv"
+    "conference": "Arxiv"
   },
   {
     "id": 8,
@@ -93,25 +116,31 @@
     "theAbstract": "The Web is a decentralised system where each Web server can serve a set of URIs that identify resources. Each resource can be associated with one or more representations. This promotes content negotiation, which is the mechanism by which a Web client can request a resource representation that satisfies a set of constraints. This is also true in the Semantic Web, since when resources are described, different vocabularies are used (e.g. Schema.org and FOAF), and when they are served in the Web, they are serialised in different formats (e.g. text/turtle and application/rdf+xml). In this context, HTTP provides the means to negotiate representations using media types, and semantic validation languages (e.g. SHACL) could be used to define the constraints that knowledge graphs must conform to. If a resource was only identified by a single URI (as it would be the case with unique names assumption), it would mean that all representations would be present on one and only one server. This implies that one would be able to negotiate all representations of a resource with that server. However, this is not possible in the actual Web, because Web standards do not assume unique names and representations are scattered and distributed in different places. Still, a URI can only be served by one server, so in general, several servers should be consulted to get all representations of a resource. Consequently, when we negotiate with a Web server, we only consider a subset of all existing representations. In this article, we propose an approach to perform content negotiation even when representations are dispersed and present in multiple locations. We focus on this specific data management solution by leveraging equivalence links, which consists of querying the Web of Data with Content Negotiation, involving on-the-fly SHACL shape validation. To this end, we provide two algorithms, the first in a basic context (i.e. considering only media type constraints) and the second in a semantic context (i.e. also considering SHACL shapes). An implementation of the algorithms as well as separate experiments were conducted to measure the benefits and assess the time requirements of such methods. The conclusion is that utilising equivalence links (such as owl:sameAs) present in knowledge graphs enables more effective content negotiation of Web resources by allowing the discovery, validation and serving of representations stored in a distributed manner.",
     "language": "en",
     "title": "Content Negotiation in a Decentralised Semantic Context Utilising Equivalence Links",
-    "authors": ["Taghzouti Yousouf", "Zimmermann Antoine", "Lefrançois Maxime"],
+    "authors": [
+      "Taghzouti Yousouf",
+      "Zimmermann Antoine",
+      "Lefrançois Maxime"
+    ],
     "issuedDate": "2023",
     "url": "/paper/ESWC_2023_DMKG.pdf",
     "status": "accepted",
     "featured": "true",
     "videoURI": "https://videolectures.net/eswc2023_taghzouti_content_negotiation/",
-    "conference":"DMKG - ESWC"
+    "conference": "DMKG - ESWC"
   },
-   {
+  {
     "id": 9,
     "type": "Extended Abstract",
     "theAbstract": "The Web is a decentralised system where servers can serve a set of URIs that identify resources. A resource may have one or more representations. This encourages Content Negotiation (CN), the mechanism by which a client can request a resource representation that satisfies some constraints. In the Semantic Web, resources are described using different vocabularies. HTTP provides the means to negotiate representations that have a required media type. Similarly, semantic validation languages (e.g. SHACL) could be used to define the constraints that knowledge graphs must satisfy. If a resource were identified by a single URI (unique names assumption), this would imply that all representations would be on one server. However, this is not possible on the current Web, because Web standards do not assume unique names and representations are distributed in different places. We propose an approach to perform content negotiation even when representations are distributed and present in multiple locations by using equivalence links, which involves on-the-fly SHACL shape validation.",
     "language": "en",
     "title": "Enable Decentralised Semantic Content Negotiation through Equivalence Links",
-    "authors": ["Taghzouti Yousouf"],
+    "authors": [
+      "Taghzouti Yousouf"
+    ],
     "issuedDate": "2023",
     "url": "/paper/SeReCo_2023.pdf",
     "status": "accepted",
-    "conference":"SeReCo"
+    "conference": "SeReCo"
   },
   {
     "id": 10,
@@ -119,10 +148,121 @@
     "theAbstract": "Identification, interaction and data formats are the pillars of the Web architecture. Content negotiation plays a major role in the interaction part by providing the means by which a server responds to a client request for a resource with the appropriate representation that satisfies a set of constraints. Content negotiation by media type and language is established on the Web. The under development profile dimension for content negotiation describes structural and/or semantic constraints on resource representations. In the Semantic Web, a client may be interested in negotiating RDF graphs that conform to a profile (e.g. represented as a SHACL shape graph). In the request-response model of HTTP, different architectural styles are possible to perform content negotiation, each with its advantages and disadvantages. In this paper, we review existing contributions related to content negotiation by profile, with a particular focus on the ongoing efforts led by the Dataset Exchange Working Group and the Internet Engineering Task Force. We then propose an overview of the possible architectural styles for content negotiation by profile, and discuss trade-offs for using one over the other. Using an incremental use case and scenarios, we show how some architectural styles would address several requirements that have not yet been addressed. An implementation and experiments are proposed to demonstrate the applicability of some of the architectural styles.",
     "language": "en",
     "title": "Architectural Styles of Content Negotiation in The Profile Dimension",
-    "authors": ["Taghzouti Yousouf", "Zimmermann Antoine", "Lefrançois Maxime"],
+    "authors": [
+      "Taghzouti Yousouf",
+      "Zimmermann Antoine",
+      "Lefrançois Maxime"
+    ],
     "issuedDate": "2023",
-    "url": "/paper/ISWC_R_2023.pdf",
+    "url": "/paper/ISWC_2023_RT.pdf",
     "status": "rejected",
-    "conference":"ISWC"
+    "conference": "ISWC"
+  },
+  {
+    "id": 11,
+    "type": "thesis",
+    "theAbstract": "The World Wide Web started as an information management initiative with the aim of providing universal access to a vast set of interconnected resources. Resources in this space could have multiple representations that capture their state and vary along some dimensions. In such a case, web agents undertake a negotiation phase to select an appropriate representation. Besides, the Semantic Web adds structure and meaning to web content, making it a suitable area for collaboration between human and software agents. Concretely, resource representations are described using the Resource Description Framework by means of various ontologies and vocabularies. This has motivated the investigation of content negotiation in the profile dimension, which is orthogonal to the previous dimensions, where a profile is a description of semantic and/or structural constraints of a desired representation. The aim of this thesis is to argue for the worth of a flexible (e.g. fine-grained constraints) and relaxed (e.g. in case of non-conformance of optional constraints) content negotiation taking into account that content negotiation is not a monolithic process, but rather composed of several stages: (1) discovery; (2) request formulation; (3) selection and/or adaptation; (4) response indication; (5) response interpretation. First, we propose an abstract model for content negotiation we call CON-NEG (for CONtent NEGotiation). Then, we present the enhancements we made at each stage for the process: (1) discovering potential representations through equivalence links; (2) indicating finer constraints through severity; (3) relaxing validation; (4) reporting finer validation; (5) interpreting the validation report. After that, we introduce S-CON-NEG abstract model, for Semantic CON-NEG, which is its extension for flexible and relaxed content negotiation. Finally, we propose a typology of finer patterns for content negotiation in the studied profile dimension. An instantiation of the abstract model is later proposed along with experiments to demonstrate the applicability and benefits of our methods. In addition, we illustrate how such improvements towards facilitating heterogeneous systems interaction by applying our approach in a Web-based multi-agent systems use case.",
+    "language": "en",
+    "title": "Semantic Content Negotiation : a Fine-grained and Relaxed Approach Using Semantic Web Technologies",
+    "authors": [
+      "Taghzouti Yousouf"
+    ],
+    "issuedDate": "2024",
+    "url": "/paper/thesis_yousouf_2024.pdf",
+    "status": "accepted",
+    "conference": "Thesis",
+    "featured": "true"
+  },
+  {
+    "id": 12,
+    "type": "article",
+    "theAbstract": "The SPARQL query language is the standard method to access knowledge graphs (KGs). However, formulating SPARQL queries is a significant challenge for non-expert users, and remains time-consuming for the experienced ones. Best practices recommend to document KGs with competency questions and example queries to contextualise the knowledge they contain and illustrate their potential applications. In practice, however, this is either not the case or the examples are provided in limited numbers. Large Language Models (LLMs) are being used in conversational agents and are proving to be an attractive solution with a wide range of applications, from simple question-answering about common knowledge to generating code in a targeted programming language. However, training and testing these models to produce high quality SPARQL queries from natural language questions requires substantial datasets of question-query pairs. In this paper, we present Q²Forge that addresses the challenge of generating new competency questions for a KG and corresponding SPARQL queries. It iteratively validates those queries with human feedback and LLM as a judge. Q²Forge is open source, generic, extensible and modular, meaning that the different modules of the application (CQ generation, query generation and query refinement) can be used separately, as an integrated pipeline, or replaced by alternative services. The result is a complete pipeline from competency question formulation to query evaluation, supporting the creation of reference query sets for any target KG.",
+    "language": "en",
+    "title": "Q²Forge: Minting Competency Questions and SPARQL Queries for Question-Answering Over Knowledge Graphs",
+    "authors": [
+      "Taghzouti Yousouf",
+      "Michel Franck",
+      "Jiang Tao",
+      "Nothias Louis-Félix",
+      "Gandon Fabien"
+    ],
+    "issuedDate": "2025",
+    "url": "/paper/ISWC_2025_RT.pdf",
+    "status": "rejected",
+    "conference": "ISWC"
+  },
+  {
+    "id": 13,
+    "type": "article",
+    "theAbstract": "The SPARQL query language is the standard method to access knowledge graphs (KGs). However, formulating SPARQL queries is a significant challenge for non-expert users, and remains time-consuming for the experienced ones. Best practices recommend to document KGs with competency questions and example queries to contextualise the knowledge they contain and illustrate their potential applications. In practice, however, this is either not the case or the examples are provided in limited numbers. Large Language Models (LLMs) are being used in conversational agents and are proving to be an attractive solution with a wide range of applications, from simple question-answering about common knowledge to generating code in a targeted programming language. However, training and testing these models to produce high quality SPARQL queries from natural language questions requires substantial datasets of question-query pairs. In this paper, we present Q²Forge that addresses the challenge of generating new competency questions for a KG and corresponding SPARQL queries. It iteratively validates those queries with human feedback and LLM as a judge. Q²Forge is open source, generic, extensible and modular, meaning that the different modules of the application (CQ generation, query generation and query refinement) can be used separately, as an integrated pipeline, or replaced by alternative services. The result is a complete pipeline from competency question formulation to query evaluation, supporting the creation of reference query sets for any target KG.",
+    "language": "en",
+    "title": "Q²Forge: Minting Competency Questions and SPARQL Queries for Question-Answering Over Knowledge Graphs",
+    "authors": [
+      "Taghzouti Yousouf",
+      "Michel Franck",
+      "Jiang Tao",
+      "Nothias Louis-Félix",
+      "Gandon Fabien"
+    ],
+    "issuedDate": "2025",
+    "url": "/paper/K-CAP_2025.pdf",
+    "featured": "true",
+    "status": "accepted",
+    "conference": "K-CAP"
+  },
+  {
+    "id": 14,
+    "type": "article",
+    "theAbstract": "Few question-query datasets exist for fine-tuning large language models on tasks such as translating natural language questions into SPARQL queries. While it is often recommended that competency questions and their corresponding SPARQL queries accompany a knowledge graph (KG), this is rarely the case in practice. In this paper, we introduce Q²Forge, a web application designed to support the creation of question-query pairs for any KG. The tool enables users to generate, test, and refine competency questions and their SPARQL counterparts directly within the interface. It employs a retrieval-augmented generation architecture to support a wide range of KGs efficiently. The result is an open-source solution for building reusable question-query datasets applicable to any KG. We also present recent developments around the Model Context Protocol, moving toward the agentification of Q²Forge—enabling natural language interactions in addition to traditional UI-based workflows.",
+    "language": "en",
+    "title": "User Interface and Agent Interface for Online Generation of Knowledge Graph’s Competency Questions and Question-Query Training Sets",
+    "authors": [
+      "Taghzouti Yousouf",
+      "Michel Franck",
+      "Jiang Tao",
+      "Nothias Louis-Félix",
+      "Gandon Fabien"
+    ],
+    "issuedDate": "2025",
+    "url": "/paper/RAGE-KG_2025.pdf",
+    "status": "accepted",
+    "conference": "RAGE-KG"
+  },
+  {
+    "id": 15,
+    "type": "article",
+    "theAbstract": "In this paper, we present a demo of how Q²Forge addresses the challenge of generating competency questions and corresponding SPARQL queries for any target Knowledge Graph. It iteratively validates those queries with human feedback and LLM as a judge. Q²Forge is open source, generic, extensible and modular. The demo shows the complete pipeline from competency question formulation to query evaluation, supporting the creation of reference question-query sets.",
+    "language": "en",
+    "title": "Building Questions and Queries Datasets for Knowledge Graphs: a Demo of Q²Forge",
+    "authors": [
+      "Taghzouti Yousouf",
+      "Michel Franck",
+      "Jiang Tao",
+      "Nothias Louis-Félix",
+      "Gandon Fabien"
+    ],
+    "issuedDate": "2025",
+    "url": "/paper/ISWC_2025_D1.pdf",
+    "status": "accepted",
+    "conference": "ISWC"
+  },
+  {
+    "id": 16,
+    "type": "article",
+    "theAbstract": "Keeping up with the rapid pace of publishing is becoming an increasingly challenging task. Moreover, the interdisciplinary nature of research poses significant challenges for both students and academics. In this demo, we present Perspicacité-AI Expanded Pipeline: an agentic workflow powered by LLMs that leverages bibliographic knowledge graphs, local and web-based scientific literature searches. The demo highlights how this approach lowers the entry barrier for new researchers and eliminates manual curation of reference lists. The end result is high-quality reports with citations tailored to users' inquiries.",
+    "language": "en",
+    "title": "An AI Pipeline for Scientific Literacy and Discovery: a Demonstration of Perspicacité-AI Integration with Knowledge Graphs",
+    "authors": [
+      "Pradi Lucas",
+      "Jiang Tao",
+      "Feraud Matthieu",
+      "Bekbergenova Madina",
+      "Taghzouti Yousouf",
+      "Nothias Louis-Felix"
+    ],
+    "issuedDate": "2025",
+    "url": "/paper/ISWC_2025_D2.pdf",
+    "status": "accepted",
+    "conference": "ISWC"
   }
 ]
