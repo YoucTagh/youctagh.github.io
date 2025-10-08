@@ -1,13 +1,8 @@
 [
     {
-        "name": "LoireConnecTID",
-        "imgPath": "image/lcid.png",
-        "description": "LoireConnecTID addresses two major challenges: Improving the organisation of public structures. Developing and diversifying the services offered to users.",
-        "previewUrl": "https://territoire.emse.fr/wordpress/?p=4679",
-        "featured": true
-    },
-    {
         "name": "HyperAgents",
+        "startDate": "2020",
+        "endDate": "2024",
         "imgPath": "image/hyperagent-white.png",
         "description": "HyperAgents is an ANR/SNF project working towards the deployment of world-wide hybrid communities of people and artificial agents on the Web.",
         "sourceUrl": "https://github.com/HyperAgents",
@@ -15,12 +10,31 @@
         "featured": true
     },
     {
+        "name": "LoireConnecTID",
+        "startDate": "2023",
+        "endDate": "2025",
+        "imgPath": "image/lcid.png",
+        "description": "LoireConnecTID addresses two major challenges: Improving the organisation of public structures. Developing and diversifying the services offered to users.",
+        "previewUrl": "https://territoire.emse.fr/wordpress/?p=4679",
+        "featured": true
+    },
+    {
+        "name": "KGBot",
+        "startDate": "2024",
+        "endDate": "2025",
+        "imgPath": "image/kgbot.png",
+        "description": "KGBot (Knowledge Graph chatBot) aims to enhance an AI-powered chemistry chatbot prototype designed to improve the accessibility and usability of metabolomics KGs.",
+        "previewUrl": "https://ds4h.univ-cotedazur.eu/research-and-labs/funded-projects-and-calls/projet-kg-bot/",
+        "featured": true
+    },
+    {
         "name": "MetaboLinkAI",
+        "startDate": "2025",
+        "endDate": "2029",
         "imgPath": "image/metabolinkai.svg",
         "description": "MetaboLinkAI is a multinational research project dedicated to revolutionizing metabolomics data interpretation.",
         "sourceUrl": "https://github.com/MetaboLinkAI",
         "previewUrl": "https://www.metabolinkai.net/",
         "featured": true
     }
-   
 ]

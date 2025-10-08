@@ -12,11 +12,11 @@
         'mb-3': options.displayInColumn
       }">
 
-      <div class="card-body d-flex flex-column">
+      <div class="card-body d-flex flex-column justify-content-center align-items-center">
         <h5 class="card-title fw-bold text-start project-title" [title]="project.name">
-          {{ project.name }}
+          {{ project.name }} ({{ project.startDate }}-{{ project.endDate }})
         </h5>
-        <div style="width: 100px; height: 100px; margin-left: auto; margin-right: auto; margin-bottom: 16px;">
+        <div style="width: 100px; height: 100px; margin-left: auto; margin-right: auto; margin-bottom: 8px;">
           <img [src]="project.imgPath" alt="logo" style="height: 100px; width: 100px;">
         </div>
         <p class="card-text text-start">

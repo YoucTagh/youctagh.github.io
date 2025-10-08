@@ -3,13 +3,13 @@
 }
 
 .project-card {
-    width: 350px;
-    height: 350px;
+    width: 375px;
+    /* height: 350px; */
 }
 
 .project-title {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 20ch;
+    /* white-space: nowrap; */
+    /* overflow: hidden; */
+    /* text-overflow: ellipsis; */
+    /* max-width: 20ch; */
 }
