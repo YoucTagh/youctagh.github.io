@@ -83,9 +83,5 @@
         }
       }
     }
-  },
-  "youctagh-website": "website",
-  "cli": {
-    "analytics": false
   }
 }
