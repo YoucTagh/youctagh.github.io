@@ -258,11 +258,29 @@
       "Feraud Matthieu",
       "Bekbergenova Madina",
       "Taghzouti Yousouf",
-      "Nothias Louis-Felix"
+      "Nothias Louis-Félix"
     ],
     "issuedDate": "2025",
     "url": "/paper/ISWC_2025_D2.pdf",
     "status": "accepted",
     "conference": "ISWC"
+  },
+  {
+    "id": 17,
+    "type": "article",
+    "theAbstract": "Le langage de requêtes SPARQL constitue la méthode standard pour accéder aux graphes de connaissances (KGs). Cependant, la formulation de requêtes SPARQL reste une tâche difficile pour les utilisateurs non experts, et chronophage même pour les plus expérimentés. Les bonnes pratiques recommandent de documenter les KGs avec des questions de compétence (CQs) et des requêtes d’exemple afin de contextualiser les connaissances qu’ils contiennent et d’illustrer leurs applications potentielles. En pratique, cela est rarement fait, ou seulement avec un nombre limité d’exemples. Les grands modèles de langage (LLMs) sont de plus en plus utilisés dans les agents conversationnels et démontrent un large éventail d’applications, allant du question-réponse simple à la génération de code dans un langage spécifique. Néanmoins, l’entraînement et l’évaluation de ces modèles pour produire des requêtes SPARQL de haute qualité à partir de questions en langage naturel nécessitent des collections importantes d'exemples de paires question–requête. Cet article présente Q²Forge, une approche visant à générer automatiquement de nouvelles questions de compétence pour un graphe de connaissances et leurs requêtes SPARQL correspondantes. Q²Forge valide ces requêtes de manière itérative grâce à une évaluation humaine et à un LLM agissant comme un juge. L’outil est open source, générique, extensible et modulaire : ses différents modules (génération de CQs, génération et raffinement de requêtes) peuvent être utilisés séparément ou comme un pipeline intégré. Le résultat est un workflow complet allant de la formulation des questions de compétence jusqu’à l’évaluation des requêtes, facilitant la création d’ensembles de référence question–requête pour tout KG cible.",
+    "language": "fr",
+    "title": "Q²Forge : Générer des Collections de Questions de Compétences et Requêtes SPARQL pour Interroger des Graphes de Connaissances en Langue Naturelle",
+    "authors": [
+      "Taghzouti Yousouf",
+      "Michel Franck",
+      "Jiang Tao",
+      "Nothias Louis-Félix",
+      "Gandon Fabien"
+    ],
+    "issuedDate": "2026",
+    "url": "https://hal.science/hal-05399933v1",
+    "status": "accepted",
+    "conference": "EGC"
   }
 ]

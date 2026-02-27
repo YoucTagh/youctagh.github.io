@@ -17,8 +17,7 @@
         },
         "description": "A website that aims to provide everything (almost :)) you need to know about the content negotiation problem.",
         "sourceUrl": "https://github.com/YoucTagh/CNTF",
-        "previewUrl": "https://w3id.org/cntf/",
-        "featured": true
+        "previewUrl": "https://w3id.org/cntf/"
     },
     {
         "name": "Purchase Manager",
@@ -67,6 +66,17 @@
         "description": "This project provides an end-to-end pipeline to generate a dataset of (question, SPARQL query) pairs for a given Knowledge Graph (KG).",
         "sourceUrl": "https://github.com/Wimmics/q2forge",
         "previewUrl": "https://w3id.org/q2forge/",
+        "featured": true
+    },
+    {
+        "name": "RDF Canonicalisation",
+        "stack": {
+            "name": "Python",
+            "iconClasses": "fab fa-python"
+        },
+        "description": "A Python library for RDF canonicalisation based on the W3C specification. It allows you to deterministically canonicalise RDF datasets, making it easier to compare, sign, or hash RDF graphs.",
+        "sourceUrl": "https://github.com/Wimmics/rdf-canon",
+        "previewUrl": "https://pypi.org/project/rdfcanon/",
         "featured": true
     }
 ]
