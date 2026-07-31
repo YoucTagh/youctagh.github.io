@@ -54,8 +54,7 @@
             "iconClasses": "fab fa-python"
         },
         "description": "Gen²KGBot intends to allow users to \"speak to a knowledge graph\", that is, use natural language to query knowledge graphs in a generic manner, with the help of generative large language models (LLM).",
-        "sourceUrl": "https://github.com/Wimmics/gen2kgbot",
-        "featured": true
+        "sourceUrl": "https://github.com/Wimmics/gen2kgbot"
     },
     {
         "name": "Q²Forge",
@@ -77,6 +76,17 @@
         "description": "A Python library for RDF canonicalisation based on the W3C specification. It allows you to deterministically canonicalise RDF datasets, making it easier to compare, sign, or hash RDF graphs.",
         "sourceUrl": "https://github.com/Wimmics/rdf-canon",
         "previewUrl": "https://pypi.org/project/rdfcanon/",
+        "featured": true
+    },
+    {
+        "name": "T2S-Metrics",
+        "stack": {
+            "name": "Python",
+            "iconClasses": "fab fa-python"
+        },
+        "description": "A small evaluation toolkit for text-to-SPARQL systems. It runs a configurable set of metrics over JSONL datasets and can execute queries against local RDF files or SPARQL endpoints.",
+        "sourceUrl": "https://github.com/Wimmics/t2s-metrics",
+        "previewUrl": "https://pypi.org/project/t2s-metrics/",
         "featured": true
     }
 ]

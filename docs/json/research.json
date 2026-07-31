@@ -124,7 +124,6 @@
     "issuedDate": "2023",
     "url": "/paper/ESWC_2023_DMKG.pdf",
     "status": "accepted",
-    "featured": "true",
     "videoURI": "https://videolectures.net/eswc2023_taghzouti_content_negotiation/",
     "conference": "DMKG - ESWC"
   },
@@ -282,5 +281,94 @@
     "url": "https://hal.science/hal-05399933v1",
     "status": "accepted",
     "conference": "EGC"
+  },
+  {
+    "id": 18,
+    "type": "article",
+    "theAbstract": "The evaluation of Question Answering (QA) systems over Knowledge Graphs has historically suffered from fragmentation, inconsistency, and limited reproducibility. While significant progress has been made in semantic parsing and SPARQL query generation, evaluation methodologies remain diverse, ad hoc, and often incomparable across studies. Existing benchmarks typically focus on a small subset of metrics, such as query exact match or answer-level F1, neglecting syntactic validity, semantic faithfulness, execution correctness, results ranking quality, and computational efficiency. In this paper, we present t2s-metrics, an open-source, extensible, and unified evaluation library designed specifically for SPARQL query comparison and execution-based assessment. t2s-metrics provides a broad and extensible set of over 20 evaluation metrics, collected from the literature and practical evaluation needs, spanning lexical, syntactic, semantic, structural, execution-based and ranking-based dimensions. These include query-based metrics such as token-level Precision, Recall, and F1; BLEU, ROUGE, METEOR, and CodeBLEU variants; variable-normalized metrics (SP-BLEU, SP-F1); graph-and URI-based exact match metrics; as well as answer set-based metrics such as F1-QALD and Jaccard similarity; ranking metrics including MRR, NDCG, P@k, and Hit@k; and LLM-as-a-Judge metrics. Taking inspiration from the ir-metrics library for Information Retrieval, t2s-metrics provides a modular abstraction layer that decouples metric specification from implementation, enabling consistent, transparent, and reproducible evaluation of SPARQLbased QA systems. We argue that t2s-metrics constitutes a necessary step toward systematic, standardized evaluation in question answering over knowledge graphs and facilitates deeper diagnostic insights into system behavior beyond answer correctness.",
+    "language": "en",
+    "title": "T2S-Metrics: Unified Library for Evaluating SPARQL Queries Generated From Natural Language",
+    "authors": [
+      "Taghzouti Yousouf",
+      "Jiang Tao",
+      "Juigné Camille",
+      "Navet Benjamin",
+      "Michel Franck",
+      "Nothias Louis-Félix",
+      "Gandon Fabien"
+    ],
+    "issuedDate": "2026",
+    "url": "https://inria.hal.science/hal-05598018",
+    "status": "accepted",
+    "conference": "ELMKE - ESWC",
+    "featured": "true"
+  },
+  {
+    "id": 18,
+    "type": "article",
+    "theAbstract": "Evaluating Text-to-SPARQL systems remains difficult because dominant metrics capture different notions of quality and often disagree. Execution-based metrics (e.g., AnswerSet F1) are semantically informative but require access to the target knowledge graph and can become impractical when result sets are large. String-based metrics (e.g., BLEU and ROUGE) are easy to compute but sensitive to harmless syntactic variations and weakly aligned with execution behavior. Leveraging the t2s-metrics library that we designed to facilitate the evaluation of Text-to-SPARQL systems using 20+ metrics from the literature, we provide the community with three additional resources. First, we extend the library with a family of metrics based on QCan, combining SPARQL canonicalization with string metrics. These metrics preserve the practicality of string comparison while reaching the accuracy of execution-based evaluations. Second, we provide the results of evaluating all these metrics on all the benchmarks from the Text2SPARQL Challenges 2025 and 2026. Third, we analyze the behaviors of four frequently used execution-based and string-based metrics together with four QCan metrics. The Krippendorff's alpha coefficient denotes an overall low agreement (alpha ordinal = 0.14 across eight key metrics), confirming that metric choice strongly affects conclusions. Yet, in our correlation analysis, QCan-based metrics substantially outperform conventional string-based baselines and approximate the execution-based metrics Error analysis reveals that many apparent QCan-based metrics failures are actually indicators of false negatives rather than true failures, surfacing problems in the benchmark.",
+    "language": "en",
+    "title": "The QCan Family in T2S-Metrics: a Library to Escape the Text-to-SPARQL Evaluation Jungle",
+    "authors": [
+      "Taghzouti Yousouf",
+      "Gandon Fabien",
+      "Jiang Tao",
+      "Juigné Camille",
+      "Michel Franck",
+      "Navet Benjamin",
+      "Nothias Louis-Félix"
+    ],
+    "issuedDate": "2026",
+    "status": "rejected",
+    "conference": "ESWC"
+  },
+  {
+    "id": 19,
+    "type": "article",
+    "theAbstract": "Evaluating Text-to-SPARQL systems remains difficult because dominant metrics capture different notions of quality and often disagree. Execution-based metrics are semantically informative but require access to the target knowledge graph and can become impractical when result sets are large. String-based metrics are easy to compute but sensitive to harmless syntactic variations and weakly aligned with execution behavior. Leveraging the t2s-metrics library that we designed to facilitate the evaluation of Text-to-SPARQL systems using 20+ metrics from the literature, we provide the community with three resources. First, we extend the library with a family of metrics combining canonicalization with string metrics. They preserve the practicality of string comparison while substantially narrowing the gap with execution-based evaluation, making them stronger, lightweight proxies and useful complements to execution-based evaluation. Second, we provide the results of evaluating all the benchmarks from the Text2SPARQL Challenges 2025 and 2026 on all the library metrics. Third, we analyze the behaviors of four frequently used execution-based and string-based metrics together with seven variations of canonicalization-based metrics. The Krippendorff's alpha coefficient denotes an overall low agreement (alpha ordinal = 0.11 across eleven key metrics), confirming that metric choice strongly affects conclusions. Yet, in our correlation analysis, canonicalization-based metrics substantially outperform conventional string-based baselines and approximate the execution-based metrics. Error analysis reveals that many apparent canonicalization-based metrics failures are actually indicators of false negatives rather than true failures, surfacing problems in the benchmarks.",
+    "language": "en",
+    "title": "Canonicalize, Then Compare: Reliable Low-Cost Metrics and a Library for Text-to-SPARQL Evaluation",
+    "authors": [
+      "Taghzouti Yousouf",
+      "Gandon Fabien",
+      "Jiang Tao",
+      "Juigné Camille",
+      "Michel Franck",
+      "Navet Benjamin",
+      "Nothias Louis-Félix"
+    ],
+    "issuedDate": "2027",
+    "status": "under review",
+    "conference": "KDD"
+  },
+  {
+    "id": 20,
+    "type": "article",
+    "theAbstract": "Evaluating Text-to-SPARQL systems remains difficult because dominant metrics capture different notions of quality and often disagree. Execution-based metrics are semantically informative but require access to the target knowledge graph and can become impractical when result sets are large. String-based metrics are easy to compute but sensitive to harmless syntactic variations and weakly aligned with execution behavior. Leveraging the t2s-metrics library that we designed to facilitate the evaluation of Text-to-SPARQL systems using 20+ metrics from the literature, we provide the community with three resources. First, we extend the library with a family of metrics combining canonicalization with string metrics. They preserve the practicality of string comparison while substantially narrowing the gap with execution-based evaluation, making them stronger, lightweight proxies and useful complements to execution-based evaluation. Second, we provide the results of evaluating all the benchmarks from the Text2SPARQL Challenges 2025 and 2026 on all the library metrics. Third, we analyze the behaviors of four frequently used execution-based and string-based metrics together with seven variations of canonicalization-based metrics. The Krippendorff's alpha coefficient denotes an overall low agreement (alpha ordinal = 0.11 across eleven key metrics), confirming that metric choice strongly affects conclusions. Yet, in our correlation analysis, canonicalization-based metrics substantially outperform conventional string-based baselines and approximate the execution-based metrics. Error analysis reveals that many apparent canonicalization-based metrics failures are actually indicators of false negatives rather than true failures, surfacing problems in the benchmarks.",
+    "language": "en",
+    "title": "MetaboT: An LLM-based Multi-Agent Framework for Interactive Analysis of Mass Spectrometry Metabolomics Knowledge Graphs",
+    "authors": [
+      "Bekbergenova Madina",
+      "Pradi Lucas",
+      "Navet Benjamin",
+      "Tysinger Emma",
+      "Michel Franck",
+      "Feraud Matthieu",
+      "Taghzouti Yousouf",
+      "Chen Yan Zhou",
+      "Kirchhoffer Olivier",
+      "Mehl Florence",
+      "Legrand Martin",
+      "Jiang Tao",
+      "Pagni Marco",
+      "Hassoun Soha",
+      "Wolfender Jean-Luc",
+      "Bittremieux Wout",
+      "Gandon Fabien",
+      "Nothias Louis-Félix"
+    ],
+    "issuedDate": "2025",
+    "status": "accepted",
+    "conference": "ISMB"
   }
 ]
