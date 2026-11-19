@@ -338,7 +338,7 @@
       "Nothias Louis-Félix"
     ],
     "issuedDate": "2027",
-    "status": "under review",
+    "status": "accepted",
     "conference": "KDD"
   },
   {
@@ -370,5 +370,45 @@
     "issuedDate": "2025",
     "status": "accepted",
     "conference": "ISMB"
+  },
+  {
+    "id": 21,
+    "type": "article",
+    "theAbstract": "Chemistry has recently entered a high-data regime as molecular databases from high-throughput platforms or computational studies have become available. Increasing automation within the chemical sciences leads to a more digital and precision chemistry. The role of dedicated scientific agents is central to guide the chemist in an ever-increasing amount of data and findings, now increasingly including negative ones. Here, we introduce Magnolia, a persistent-memory artificial intelligence (AI) agent framework that integrates computational protocols, from docking to quantum chemistry, lab notebooks and chat logs relying on large language models (LLMs). It relies on a three-tier memory system: session-level observations are automatically captured and distilled into structured learnings, confirmed and elevated to project-tier entries and, when human-validated, promoted to cross-project rules that actively guide subsequent work and provide direct chemical feedback. We exemplify the use of Magnolia on several selected case studies taken from computational chemistry, to illustrate typical tasks from quantum chemistry (evaluation of electronic properties of aromatic systems across the COMPAS database), passing through molecular dynamics simulations, to protein--peptide docking. By combining automation, reproducibility, and human-in-the-loop control, our Magnolia framework streamlines docking, molecular dynamics and quantum chemistry calculations with direct analysis and LLM-augmented feedback, offering accelerated access to computational (bio)chemistry.",
+    "language": "en",
+    "title": "Magnolia: A Persistent-Memory Agent Framework for Computational Chemistry",
+    "authors": [
+      "Jiang Tao",
+      "Navet Benjamin",
+      "Taghzouti Yousouf",
+      "Gandon Fabien",
+      "Dumont Elise",
+      "Nothias Louis-Félix"
+    ],
+    "issuedDate": "2026",
+    "status": "accepted",
+    "conference": "Arxiv",
+    "url": "https://arxiv.org/pdf/2610.27230"
+  },
+  {
+    "id": 21,
+    "type": "article",
+    "theAbstract": "Current Autonomous Scientific Research (ASR) systems, despite leveraging large language models (LLMs) and agentic architectures, remain constrained by fixed workflows and toolsets that prevent adaptation to evolving tasks and environments. We introduce Mimosa, an evolving multiagent framework that automatically synthesizes task-specific multi-agent workflows and iteratively refines them through experimental feedback. Mimosa leverages the Model Context Protocol (MCP) for dynamic tool discovery, generates workflow topologies via a meta-orchestrator, executes subtasks through code-generating agents that invoke available tools and scientific software libraries, and scores executions with an LLM-based judge whose feedback drives workflow refinement. On ScienceAgentBench, Mimosa achieves a success rate of 43.1% with DeepSeek-V3.2, surpassing both single-agent baselines and static multiagent configurations. Our results further reveal that models respond heterogeneously to multi-agent decomposition and iterative learning, indicating that the benefits of workflow evolution depend on the capabilities of the underlying execution model. Beyond these benchmarks, Mimosa’s modular architecture and toolagnostic design make it readily extensible, and its fully logged execution traces and archived workflows support auditability by preserving every analytical step for inspection and potential replication. Combined with domain-expert guidance, the framework has the potential to automate a broad range of computationally accessible scientific tasks across disciplines. Released as a fully open-source platform, Mimosa aims to provide an open foundation for community-driven ASR.",
+    "language": "en",
+    "title": "Mimosa Framework: Toward Evolving Multi-Agent Systems for Scientific Research",
+    "authors": [
+      "Legrand Martin",
+      "Jiang Tao",
+      "Feraud Matthieu",
+      "Navet Benjamin",
+      "Taghzouti Yousouf",
+      "Gandon Fabien",
+      "Dumont Elise",
+      "Nothias Louis-Félix"
+    ],
+    "issuedDate": "2026",
+    "status": "accepted",
+    "conference": "Arxiv",
+    "url": "https://arxiv.org/pdf/2603.28986"
   }
 ]
